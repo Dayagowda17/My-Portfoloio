@@ -293,8 +293,12 @@ img {
 }
 
 .about__img img {
-    width: 200px;
-    border-radius: .5rem;
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    border: 3px solid black;
 }
 
 
